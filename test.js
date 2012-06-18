@@ -44,5 +44,8 @@ function onRoute(request, response)
 {
     console.log("onRoute: url[ %s ]", request.url);
 
-    this.sendResponse(response, '404: Not Found', {code:404});
+    this.sendResponse(response, {
+                        code:   404,
+                        content:'404: Not Found'
+                      });
 }
