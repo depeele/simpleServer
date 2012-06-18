@@ -1,0 +1,11 @@
+{
+    "name":         "simpleServer",
+    "description":  "A simple, no-frills, node.js based web server.",
+    "version":      "0.0.1",
+    "author":       "D. Elmo Peele",
+    "directories":  { "lib": "./lib" },
+    "main":         "./lib/simpleServer",
+    "dependencies": {
+        "underscore":   ">=1.3.3"
+    }
+}

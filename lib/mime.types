@@ -1,0 +1,30 @@
+# MIME type                     Extensions
+# ===========================   ==========
+application/javascript          js
+application/json                json
+application/octet-stream        bin zip tgz lzh lha iso dmg pkg
+application/pdf                 pdf
+
+image/bmp                       bmp
+image/gif                       gif
+image/jpeg                      jpeg jpg jpe
+image/png                       png
+image/svg+xml                   svg svgz
+image/x-icon                    ico
+
+text/css                        css
+text/html                       html htm
+text/plain                      txt conf log
+
+# HTML application cache manifest required by Mozilla when serving HTML5 apps
+#   https://developer.mozilla.org/en/offline_resources_in_firefox
+text/cache-manifest             appcache manifest
+
+# Silence the Google Chrome message:
+#   "Resource interpreted as font but transferred with Mime type font/otf"
+font/opentype                   otf
+
+# Google Chrome Extension to allow apps to be served with the right content
+# type header and thus work.
+#       http://codereview.chromium.org/2830017
+application/x-chrome-extension  crx
